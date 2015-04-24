@@ -25,6 +25,24 @@ Formula:
 
 $$\frac{weight_{lbs} * 703}{height_{inches}^2}$$
 
+&nbsp;
+
+Examples:
+
+```{r block1, echo=FALSE, fig.width=12, fig.height=4}
+
+par(mfrow=c(1,2))
+weight <- 100:200
+height <- 66
+BMI <- weight * 703 / height^2
+plot(weight, BMI, main="BMI given weight and height of 5'6'")
+weight <- 150
+height <- 60:72
+BMI <- weight * 703 / height^2
+plot(height, BMI, main="BMI given weight of 150 lbs and height")
+
+```
+
 ---
 
 ## What does BMI mean?

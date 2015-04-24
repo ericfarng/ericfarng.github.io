@@ -25,6 +25,12 @@ Formula:
 
 $$\frac{weight_{lbs} * 703}{height_{inches}^2}$$
 
+&nbsp;
+
+Examples:
+
+![plot of chunk block1](assets/fig/block1-1.png) 
+
 ---
 
 ## What does BMI mean?
